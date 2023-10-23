@@ -10,7 +10,7 @@
     top: 1px;
   width: 40px;
   height: 38px;
-    background: #fff;
+    /* background: #fff; */
     display: block;
   }
 
@@ -113,10 +113,10 @@
     line-height: 20px;
     border: none;
     border-radius: 5px;
-    background: #fff;
     padding: 0 0 0 5px;
     width: calc(100%);
     transition: border 0.1s ease;
+    background-color: #f96654;
     box-sizing: border-box;
     margin-bottom: 8px;
     vertical-align: top;
@@ -168,7 +168,7 @@
     margin-right: 10px;
     color: #fff;
     line-height: 1;
-    background: #41b883;
+    background: #f96654;
     margin-bottom: 5px;
     white-space: nowrap;
     overflow: hidden;
@@ -268,7 +268,6 @@
   .multiselect__content-wrapper {
     position: absolute;
     display: block;
-    background: #fff;
     width: 100%;
     max-height: 240px;
     overflow: auto;
@@ -331,19 +330,19 @@
   }
 
   .multiselect__option--highlight {
-    background: #41b883;
+    background: #f96654;
     outline: none;
     color: white;
   }
 
   .multiselect__option--highlight::after {
     content: attr(data-select);
-    background: #41b883;
+    background: #f96654;
     color: white;
   }
 
   .multiselect__option--selected {
-    background: #f3f3f3;
+    /* background: #f3f3f3; */
     color: #35495e;
     font-weight: bold;
   }
@@ -351,7 +350,7 @@
   .multiselect__option--selected::after {
     content: attr(data-selected);
     color: silver;
-  background: inherit;
+    background: inherit;
   }
 
   .multiselect__option--selected.multiselect__option--highlight {
@@ -367,19 +366,19 @@
 
   .multiselect--disabled .multiselect__current,
   .multiselect--disabled .multiselect__select {
-    background: #ededed;
+    /* background: #ededed; */
     color: #a6a6a6;
   }
 
   .multiselect__option--disabled {
-    background: #ededed !important;
+    /* background: #ededed !important; */
     color: #a6a6a6 !important;
     cursor: text;
     pointer-events: none;
   }
 
   .multiselect__option--group {
-    background: #ededed;
+    /* background: #ededed; */
     color: #35495e;
   }
 
@@ -393,7 +392,7 @@
   }
 
   .multiselect__option--disabled.multiselect__option--highlight {
-    background: #dedede;
+    /* background: #dedede; */
   }
 
   .multiselect__option--group-selected.multiselect__option--highlight {
