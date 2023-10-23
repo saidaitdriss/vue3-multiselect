@@ -10,7 +10,7 @@
     top: 1px;
   width: 40px;
   height: 38px;
-    /* background: #fff; */
+    background: #fff;
     display: block;
   }
 
@@ -24,7 +24,7 @@
     width: 16px;
     height: 16px;
     border-radius: 100%;
-    border-color: #41b883 transparent transparent;
+    border-color: #f96654 transparent transparent;
     border-style: solid;
     border-width: 2px;
     box-shadow: 0 0 0 1px transparent;
@@ -113,14 +113,13 @@
     line-height: 20px;
     border: none;
     border-radius: 5px;
+    background: #f96654;
     padding: 0 0 0 5px;
     width: calc(100%);
     transition: border 0.1s ease;
-    background-color: #f96654 !important;
     box-sizing: border-box;
     margin-bottom: 8px;
-    vertical-align: top;
-    color: #fff;
+    vertical-align: top; 
   }
 
   .multiselect__input::placeholder {
@@ -157,6 +156,7 @@
     display: block;
     padding: 8px 40px 0 8px;
     border-radius: 5px;
+    border: 1px solid #e8e8e8;
     font-size: 14px;
   }
 
@@ -268,6 +268,7 @@
   .multiselect__content-wrapper {
     position: absolute;
     display: block;
+    background: inherit;
     width: 100%;
     max-height: 240px;
     overflow: auto;
@@ -296,7 +297,6 @@
     border-top-right-radius: 5px;
     border-bottom: none;
     border-top: 1px solid #e8e8e8;
-    background-color: inherit;
   }
 
   .multiselect__content::-webkit-scrollbar {
@@ -343,7 +343,7 @@
   }
 
   .multiselect__option--selected {
-    /* background: #f3f3f3; */
+    background: #f3f3f3;
     color: #35495e;
     font-weight: bold;
   }
@@ -351,7 +351,7 @@
   .multiselect__option--selected::after {
     content: attr(data-selected);
     color: silver;
-    background: inherit;
+  background: inherit;
   }
 
   .multiselect__option--selected.multiselect__option--highlight {
@@ -367,19 +367,19 @@
 
   .multiselect--disabled .multiselect__current,
   .multiselect--disabled .multiselect__select {
-    /* background: #ededed; */
+    background: #ededed;
     color: #a6a6a6;
   }
 
   .multiselect__option--disabled {
-    /* background: #ededed !important; */
+    background: #ededed !important;
     color: #a6a6a6 !important;
     cursor: text;
     pointer-events: none;
   }
 
   .multiselect__option--group {
-    /* background: #ededed; */
+    background: #ededed;
     color: #35495e;
   }
 
@@ -393,7 +393,7 @@
   }
 
   .multiselect__option--disabled.multiselect__option--highlight {
-    /* background: #dedede; */
+    background: #dedede;
   }
 
   .multiselect__option--group-selected.multiselect__option--highlight {
