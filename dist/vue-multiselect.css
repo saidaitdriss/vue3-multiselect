@@ -116,10 +116,11 @@
     padding: 0 0 0 5px;
     width: calc(100%);
     transition: border 0.1s ease;
-    background-color: #f96654;
+    background-color: #f96654 !important;
     box-sizing: border-box;
     margin-bottom: 8px;
     vertical-align: top;
+    color: #fff;
   }
 
   .multiselect__input::placeholder {
@@ -156,7 +157,6 @@
     display: block;
     padding: 8px 40px 0 8px;
     border-radius: 5px;
-    border: 1px solid #e8e8e8;
     font-size: 14px;
   }
 
@@ -296,6 +296,7 @@
     border-top-right-radius: 5px;
     border-bottom: none;
     border-top: 1px solid #e8e8e8;
+    background-color: inherit;
   }
 
   .multiselect__content::-webkit-scrollbar {
