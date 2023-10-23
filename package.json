@@ -4,9 +4,6 @@
   "private": false,
   "types": "index.d.ts",
   "description": "Multiselect component for Vue 3",
-  "contributors": [
-    "Matt Elen <matt@suade.org>"
-  ],
   "scripts": {
     "lint": "vue-cli-service lint",
     "bundle": "vue-cli-service build --target lib ./src/index.js && rm -rf ./dist/demo.html && rollup -c --environment BUILD:production",

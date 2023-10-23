@@ -506,7 +506,7 @@ export default {
     line-height: 20px;
     border: none;
     border-radius: 5px;
-    background: #fff;
+    background: #f96654;
     padding: 0 0 0 5px;
     width: calc(100%);
     transition: border 0.1s ease;
@@ -549,7 +549,6 @@ export default {
     display: block;
     padding: 8px 40px 0 8px;
     border-radius: 5px;
-    border: 1px solid #e8e8e8;
     background: #fff;
     font-size: 14px;
   }
