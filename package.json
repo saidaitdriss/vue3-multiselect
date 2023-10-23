@@ -1,13 +1,9 @@
 {
-  "name": "vue-multiselect",
-  "version": "3.0.0-beta.2",
+  "name": "vue3-multiselect",
+  "version": "1",
   "private": false,
   "types": "index.d.ts",
   "description": "Multiselect component for Vue 3",
-  "author": {
-    "name": "Damian Dulisz",
-    "email": "damian@dulisz.com"
-  },
   "contributors": [
     "Matt Elen <matt@suade.org>"
   ],
@@ -50,9 +46,7 @@
     "vue": "^3.0.0",
     "vue-jest": "^5.0.0-alpha.7"
   },
-  "bugs": {
-    "url": "https://github.com/suadelabs/vue-multiselect/issues"
-  },
+
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
@@ -60,6 +54,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/suadelabs/vue-multiselect.git"
+    "url": "git+https://github.com/saidaitdriss/vue3-multiselec.git"
   }
 }
